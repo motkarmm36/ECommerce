@@ -1,12 +1,16 @@
-C:\Users\motka\Desktop\MaheshAutomationFramework\src\test\java\pageObject\BasePage.java
-C:\Users\motka\Desktop\MaheshAutomationFramework\src\test\java\pageObject\HomePage.java
-C:\Users\motka\Desktop\MaheshAutomationFramework\src\test\java\pageObject\LoginPage.java
-C:\Users\motka\Desktop\MaheshAutomationFramework\src\test\java\pageObject\RegisterPage.java
-C:\Users\motka\Desktop\MaheshAutomationFramework\src\test\java\testCases\BaseClass.java
-C:\Users\motka\Desktop\MaheshAutomationFramework\src\test\java\testCases\TC01_AccountRegister.java
-C:\Users\motka\Desktop\MaheshAutomationFramework\src\test\java\testCases\TC02_AccountLogin.java
-C:\Users\motka\Desktop\MaheshAutomationFramework\src\test\java\testCases\TC03_AccountLoginMultipleLoginData.java
-C:\Users\motka\Desktop\MaheshAutomationFramework\src\test\java\testCases\TC04_HomePageUI.java
-C:\Users\motka\Desktop\MaheshAutomationFramework\src\test\java\Utilities\DataProviders.java
-C:\Users\motka\Desktop\MaheshAutomationFramework\src\test\java\Utilities\ExcelUtilities.java
-C:\Users\motka\Desktop\MaheshAutomationFramework\src\test\java\Utilities\ExtentTestListener.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\pageObject\BasePage.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\pageObject\CartPage.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\pageObject\HomePage.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\pageObject\LoginPage.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\pageObject\ProductDetailsPage.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\pageObject\RegisterPage.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\testCases\BaseClass.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\testCases\TC01_AccountRegister.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\testCases\TC02_AccountLogin.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\testCases\TC03_AccountLoginMultipleLoginData.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\testCases\TC04_HomePageUI.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\testCases\TC05_AddProductToCart.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\testCases\TC06_RemoveFromCart.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\Utilities\DataProviders.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\Utilities\ExcelUtilities.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\Utilities\ExtentTestListener.java

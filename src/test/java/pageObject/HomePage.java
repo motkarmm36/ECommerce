@@ -2,6 +2,7 @@ package pageObject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends BasePage{
@@ -33,6 +34,27 @@ public class HomePage extends BasePage{
 	 
 	 @FindBy(xpath="//select[@id='customerCurrency']") 
 	 WebElement CurrencyDropdown;
+	 
+	 
+	 @FindBy(xpath="//input[@id='small-searchterms']") 
+	 WebElement searchStore;
+	 
+	 @FindBy(xpath="//button[normalize-space()='Search']") 
+	 WebElement search;
+	 
+	 @FindBy(xpath="//ul[@class='top-menu notmobile']//a[normalize-space()='Computers']") 
+	 public WebElement computers;
+	 
+	 @FindBy(xpath="//ul[@class='top-menu notmobile']//a[normalize-space()='Notebooks']") 
+	 public WebElement notebooks;
+	 
+	 @FindBy(xpath="//h2[@class='product-title']//a[normalize-space()='Apple MacBook Pro']")
+	public WebElement appleMacBookPro;
+	 
+
+	 
+	 @FindBy(xpath="//span[@class='cart-label']") 
+	 public WebElement shoppingCart;
 	 
 	 
 	 public void clickRegi () {
@@ -72,6 +94,15 @@ public class HomePage extends BasePage{
 	 public Boolean isLogoDisplayed() {
 		 return nopCommerceDemoStoreLogo.isDisplayed();
 	 }
+	 
+	
+	 
+	 public void selectCartOption() {
+		 shoppingCart.click();
+	 }
+
+	 
+	 
 	 
 	
 	

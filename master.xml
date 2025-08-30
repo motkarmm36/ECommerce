@@ -5,14 +5,17 @@
     <listener class-name="Utilities.ExtentTestListener"/>
 </listeners>
 
-<parameter name="OS" value="Windows"></parameter>
+<parameter name="OS" value= "Windows"></parameter>
 <parameter name="browser" value="Chrome"></parameter>
   <test thread-count="5" name="Test">
     <classes>
-       <class name="testCases.TC01_AccountRegister"/>
+	   <class name="testCases.TC01_AccountRegister"/>
        <class name="testCases.TC02_AccountLogin"/>
        <class name="testCases.TC03_AccountLoginMultipleLoginData"/>
        <class name="testCases.TC04_HomePageUI"/>
+        <class name="testCases.TC05_AddProductToCart"/>
+        <class name="testCases.TC06_RemoveFromCart"/>
+
 
     </classes>
   </test> <!-- Test -->

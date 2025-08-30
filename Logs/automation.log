@@ -1,5 +1,12 @@
-13:36:23.807 [main] INFO  testCases.TC04_HomePageUI - Header passed
-13:36:24.036 [main] INFO  testCases.TC04_HomePageUI - SitemapShown started
-13:36:24.072 [main] INFO  testCases.TC04_HomePageUI - SitemapShown finished
-13:36:24.236 [main] INFO  testCases.TC04_HomePageUI - LogoDisplayed started
-13:36:24.285 [main] INFO  testCases.TC04_HomePageUI - LogoDisplayed finished
+16:07:39.745 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
+16:07:42.952 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with invalid data
+16:07:43.077 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
+16:07:52.694 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with valid data
+16:07:52.924 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
+16:07:58.734 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with invalid data
+16:10:20.542 [main] INFO  testCases.TC04_HomePageUI - Header Shown started
+16:10:20.590 [main] INFO  testCases.TC04_HomePageUI - Header passed
+16:10:20.851 [main] INFO  testCases.TC04_HomePageUI - SitemapShown started
+16:10:20.882 [main] INFO  testCases.TC04_HomePageUI - SitemapShown finished
+16:10:21.170 [main] INFO  testCases.TC04_HomePageUI - LogoDisplayed started
+16:10:21.228 [main] INFO  testCases.TC04_HomePageUI - LogoDisplayed finished

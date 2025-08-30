@@ -8,33 +8,33 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
+      <class name="testCases.TC06_RemoveFromCart">
+        <methods>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="RemoveProduct"/>
+          <include name="removeDriver"/>
+        </methods>
+      </class> <!-- testCases.TC06_RemoveFromCart -->
       <class name="testCases.TC01_AccountRegister">
         <methods>
           <include name="register"/>
-          <include name="setup"/>
           <include name="setUp"/>
+          <include name="setup"/>
           <include name="tearDown"/>
           <include name="removeDriver"/>
         </methods>
       </class> <!-- testCases.TC01_AccountRegister -->
-      <class name="testCases.TC03_AccountLoginMultipleLoginData">
+      <class name="testCases.TC05_AddProductToCart">
         <methods>
           <include name="setUp"/>
           <include name="setup"/>
-          <include name="Login" invocation-numbers="1"/>
           <include name="tearDown"/>
+          <include name="addProcuctToCart"/>
           <include name="removeDriver"/>
         </methods>
-      </class> <!-- testCases.TC03_AccountLoginMultipleLoginData -->
-      <class name="testCases.TC02_AccountLogin">
-        <methods>
-          <include name="Login"/>
-          <include name="setup"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="removeDriver"/>
-        </methods>
-      </class> <!-- testCases.TC02_AccountLogin -->
+      </class> <!-- testCases.TC05_AddProductToCart -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

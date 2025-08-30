@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC02_AccountLogin">
+      <class name="testCases.TC05_AddProductToCart">
         <methods>
-          <include name="Login"/>
           <include name="setUp"/>
+          <include name="setup"/>
           <include name="tearDown"/>
+          <include name="addProcuctToCart"/>
+          <include name="removeDriver"/>
         </methods>
-      </class> <!-- testCases.TC02_AccountLogin -->
+      </class> <!-- testCases.TC05_AddProductToCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

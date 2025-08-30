@@ -39,7 +39,16 @@ public void clickLogin() {
 public boolean LoginErrDisplayed() {
 	return loginerror.isDisplayed();
 }
-	
+
+public void loginS(String Email, String Password) {
+	Textemail.sendKeys(Email);
+	Textpassword.sendKeys(Password);
+	ButtonlogIn.click();
+
+
+}
+
+
 
 
 	

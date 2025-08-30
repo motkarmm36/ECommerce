@@ -17,35 +17,6 @@
           <include name="removeDriver"/>
         </methods>
       </class> <!-- testCases.TC01_AccountRegister -->
-      <class name="testCases.TC03_AccountLoginMultipleLoginData">
-        <methods>
-          <include name="setUp"/>
-          <include name="setup"/>
-          <include name="Login" invocation-numbers="0 1 2"/>
-          <include name="tearDown"/>
-          <include name="removeDriver"/>
-        </methods>
-      </class> <!-- testCases.TC03_AccountLoginMultipleLoginData -->
-      <class name="testCases.TC04_HomePageUI">
-        <methods>
-          <include name="setUp"/>
-          <include name="setup"/>
-          <include name="HeaderShown"/>
-          <include name="tearDown"/>
-          <include name="informationSitemapShown"/>
-          <include name="isLogoDisplayed"/>
-          <include name="removeDriver"/>
-        </methods>
-      </class> <!-- testCases.TC04_HomePageUI -->
-      <class name="testCases.TC02_AccountLogin">
-        <methods>
-          <include name="Login"/>
-          <include name="setup"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="removeDriver"/>
-        </methods>
-      </class> <!-- testCases.TC02_AccountLogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
