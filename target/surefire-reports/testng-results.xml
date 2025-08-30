@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-30T16:05:46 IST" name="Suite" finished-at="2025-08-30T16:11:18 IST" duration-ms="331868">
+  <suite started-at="2025-08-30T20:54:19 IST" name="Suite" finished-at="2025-08-30T20:56:08 IST" duration-ms="109414">
     <groups>
       <group name="Master">
-        <method signature="TC01_AccountRegister.register()[pri:0, instance:testCases.TC01_AccountRegister@130d63be]" name="register" class="testCases.TC01_AccountRegister"/>
-        <method signature="TC02_AccountLogin.Login()[pri:0, instance:testCases.TC02_AccountLogin@3349e9bb]" name="Login" class="testCases.TC02_AccountLogin"/>
-        <method signature="TC03_AccountLoginMultipleLoginData.Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@409bf450]" name="Login" class="testCases.TC03_AccountLoginMultipleLoginData"/>
-        <method signature="TC04_HomePageUI.HeaderShown()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" name="HeaderShown" class="testCases.TC04_HomePageUI"/>
-        <method signature="TC04_HomePageUI.informationSitemapShown()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" name="informationSitemapShown" class="testCases.TC04_HomePageUI"/>
-        <method signature="TC04_HomePageUI.isLogoDisplayed()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" name="isLogoDisplayed" class="testCases.TC04_HomePageUI"/>
+        <method signature="TC01_AccountRegister.register()[pri:0, instance:testCases.TC01_AccountRegister@293a5bf6]" name="register" class="testCases.TC01_AccountRegister"/>
+        <method signature="TC02_AccountLogin.Login()[pri:0, instance:testCases.TC02_AccountLogin@38d8f54a]" name="Login" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC03_AccountLoginMultipleLoginData.Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@49e53c76]" name="Login" class="testCases.TC03_AccountLoginMultipleLoginData"/>
+        <method signature="TC04_HomePageUI.HeaderShown()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" name="HeaderShown" class="testCases.TC04_HomePageUI"/>
+        <method signature="TC04_HomePageUI.informationSitemapShown()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" name="informationSitemapShown" class="testCases.TC04_HomePageUI"/>
+        <method signature="TC04_HomePageUI.isLogoDisplayed()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" name="isLogoDisplayed" class="testCases.TC04_HomePageUI"/>
       </group> <!-- Master -->
       <group name="Functional">
-        <method signature="TC01_AccountRegister.register()[pri:0, instance:testCases.TC01_AccountRegister@130d63be]" name="register" class="testCases.TC01_AccountRegister"/>
-        <method signature="TC02_AccountLogin.Login()[pri:0, instance:testCases.TC02_AccountLogin@3349e9bb]" name="Login" class="testCases.TC02_AccountLogin"/>
-        <method signature="TC03_AccountLoginMultipleLoginData.Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@409bf450]" name="Login" class="testCases.TC03_AccountLoginMultipleLoginData"/>
+        <method signature="TC01_AccountRegister.register()[pri:0, instance:testCases.TC01_AccountRegister@293a5bf6]" name="register" class="testCases.TC01_AccountRegister"/>
+        <method signature="TC02_AccountLogin.Login()[pri:0, instance:testCases.TC02_AccountLogin@38d8f54a]" name="Login" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC03_AccountLoginMultipleLoginData.Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@49e53c76]" name="Login" class="testCases.TC03_AccountLoginMultipleLoginData"/>
       </group> <!-- Functional -->
       <group name="UI">
-        <method signature="TC04_HomePageUI.HeaderShown()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" name="HeaderShown" class="testCases.TC04_HomePageUI"/>
-        <method signature="TC04_HomePageUI.informationSitemapShown()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" name="informationSitemapShown" class="testCases.TC04_HomePageUI"/>
-        <method signature="TC04_HomePageUI.isLogoDisplayed()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" name="isLogoDisplayed" class="testCases.TC04_HomePageUI"/>
+        <method signature="TC04_HomePageUI.HeaderShown()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" name="HeaderShown" class="testCases.TC04_HomePageUI"/>
+        <method signature="TC04_HomePageUI.informationSitemapShown()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" name="informationSitemapShown" class="testCases.TC04_HomePageUI"/>
+        <method signature="TC04_HomePageUI.isLogoDisplayed()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" name="isLogoDisplayed" class="testCases.TC04_HomePageUI"/>
       </group> <!-- UI -->
     </groups>
-    <test started-at="2025-08-30T16:05:46 IST" name="Test" finished-at="2025-08-30T16:11:18 IST" duration-ms="331868">
-      <class name="testCases.TC02_AccountLogin">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_AccountLogin@3349e9bb]" started-at="2025-08-30T16:06:58 IST" name="setUp" finished-at="2025-08-30T16:07:03 IST" duration-ms="5786" status="PASS">
+    <test started-at="2025-08-30T20:54:19 IST" name="Test" finished-at="2025-08-30T20:56:08 IST" duration-ms="109414">
+      <class name="testCases.TC08_ForgotPassword">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC08_ForgotPassword@689604d9]" started-at="2025-08-30T20:55:59 IST" name="setUp" finished-at="2025-08-30T20:56:03 IST" duration-ms="4755" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,25 +41,93 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC02_AccountLogin@3349e9bb]" started-at="2025-08-30T16:07:03 IST" name="setup" finished-at="2025-08-30T16:07:03 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC08_ForgotPassword@689604d9]" started-at="2025-08-30T20:56:03 IST" name="setup" finished-at="2025-08-30T20:56:03 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login()[pri:0, instance:testCases.TC02_AccountLogin@3349e9bb]" started-at="2025-08-30T16:07:03 IST" name="Login" finished-at="2025-08-30T16:07:29 IST" depends-on-methods="register" duration-ms="25299" status="PASS">
+        <test-method signature="forgotPasswordwithRegisterEmail()[pri:0, instance:testCases.TC08_ForgotPassword@689604d9]" started-at="2025-08-30T20:56:03 IST" name="forgotPasswordwithRegisterEmail" finished-at="2025-08-30T20:56:08 IST" depends-on-methods="register" duration-ms="4350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordwithRegisterEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC08_ForgotPassword@689604d9]" started-at="2025-08-30T20:56:08 IST" name="tearDown" finished-at="2025-08-30T20:56:08 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC08_ForgotPassword@689604d9]" started-at="2025-08-30T20:56:08 IST" name="removeDriver" finished-at="2025-08-30T20:56:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+      </class> <!-- testCases.TC08_ForgotPassword -->
+      <class name="testCases.TC07_ChangePassword">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC07_ChangePassword@35d019a3]" started-at="2025-08-30T20:55:40 IST" name="setUp" finished-at="2025-08-30T20:55:49 IST" duration-ms="8900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="changePassword()[pri:0, instance:testCases.TC07_ChangePassword@35d019a3]" started-at="2025-08-30T20:55:49 IST" name="changePassword" finished-at="2025-08-30T20:55:58 IST" depends-on-methods="register" duration-ms="8691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC07_ChangePassword@35d019a3]" started-at="2025-08-30T20:55:49 IST" name="setup" finished-at="2025-08-30T20:55:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC07_ChangePassword@35d019a3]" started-at="2025-08-30T20:55:58 IST" name="tearDown" finished-at="2025-08-30T20:55:59 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC07_ChangePassword@35d019a3]" started-at="2025-08-30T20:55:58 IST" name="removeDriver" finished-at="2025-08-30T20:55:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+      </class> <!-- testCases.TC07_ChangePassword -->
+      <class name="testCases.TC02_AccountLogin">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_AccountLogin@38d8f54a]" started-at="2025-08-30T20:54:40 IST" name="setUp" finished-at="2025-08-30T20:54:44 IST" duration-ms="4234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login()[pri:0, instance:testCases.TC02_AccountLogin@38d8f54a]" started-at="2025-08-30T20:54:44 IST" name="Login" finished-at="2025-08-30T20:54:50 IST" depends-on-methods="register" duration-ms="5522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC02_AccountLogin@3349e9bb]" started-at="2025-08-30T16:07:29 IST" name="removeDriver" finished-at="2025-08-30T16:07:29 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC02_AccountLogin@38d8f54a]" started-at="2025-08-30T20:54:44 IST" name="setup" finished-at="2025-08-30T20:54:44 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- removeDriver -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC02_AccountLogin@3349e9bb]" started-at="2025-08-30T16:07:29 IST" name="tearDown" finished-at="2025-08-30T16:07:30 IST" duration-ms="431" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC02_AccountLogin@38d8f54a]" started-at="2025-08-30T20:54:50 IST" name="tearDown" finished-at="2025-08-30T20:54:50 IST" duration-ms="286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC02_AccountLogin@38d8f54a]" started-at="2025-08-30T20:54:50 IST" name="removeDriver" finished-at="2025-08-30T20:54:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
       </class> <!-- testCases.TC02_AccountLogin -->
       <class name="testCases.TC06_RemoveFromCart">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC06_RemoveFromCart@351d00c0]" started-at="2025-08-30T16:10:47 IST" name="setUp" finished-at="2025-08-30T16:10:56 IST" duration-ms="9463" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC06_RemoveFromCart@55b699ef]" started-at="2025-08-30T20:55:28 IST" name="setUp" finished-at="2025-08-30T20:55:33 IST" duration-ms="5205" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,25 +143,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC06_RemoveFromCart@351d00c0]" started-at="2025-08-30T16:10:56 IST" name="setup" finished-at="2025-08-30T16:10:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC06_RemoveFromCart@55b699ef]" started-at="2025-08-30T20:55:33 IST" name="setup" finished-at="2025-08-30T20:55:33 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="RemoveProduct()[pri:0, instance:testCases.TC06_RemoveFromCart@351d00c0]" started-at="2025-08-30T16:10:56 IST" name="RemoveProduct" finished-at="2025-08-30T16:11:17 IST" depends-on-methods="addProcuctToCart" duration-ms="21054" status="PASS">
+        <test-method signature="RemoveProduct()[pri:0, instance:testCases.TC06_RemoveFromCart@55b699ef]" started-at="2025-08-30T20:55:33 IST" name="RemoveProduct" finished-at="2025-08-30T20:55:40 IST" depends-on-methods="addProcuctToCart" duration-ms="6902" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC06_RemoveFromCart@351d00c0]" started-at="2025-08-30T16:11:18 IST" name="tearDown" finished-at="2025-08-30T16:11:18 IST" duration-ms="483" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC06_RemoveFromCart@351d00c0]" started-at="2025-08-30T16:11:18 IST" name="removeDriver" finished-at="2025-08-30T16:11:18 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC06_RemoveFromCart@55b699ef]" started-at="2025-08-30T20:55:40 IST" name="removeDriver" finished-at="2025-08-30T20:55:40 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC06_RemoveFromCart@55b699ef]" started-at="2025-08-30T20:55:40 IST" name="tearDown" finished-at="2025-08-30T20:55:40 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC06_RemoveFromCart -->
       <class name="testCases.TC04_HomePageUI">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" started-at="2025-08-30T16:07:59 IST" name="setUp" finished-at="2025-08-30T16:10:20 IST" duration-ms="140956" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" started-at="2025-08-30T20:55:05 IST" name="setUp" finished-at="2025-08-30T20:55:11 IST" duration-ms="5835" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -109,49 +177,49 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" started-at="2025-08-30T16:10:20 IST" name="setup" finished-at="2025-08-30T16:10:20 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="HeaderShown()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" started-at="2025-08-30T16:10:20 IST" name="HeaderShown" finished-at="2025-08-30T16:10:20 IST" duration-ms="49" status="PASS">
+        <test-method signature="HeaderShown()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" started-at="2025-08-30T20:55:11 IST" name="HeaderShown" finished-at="2025-08-30T20:55:11 IST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HeaderShown -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" started-at="2025-08-30T16:10:20 IST" name="removeDriver" finished-at="2025-08-30T16:10:20 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeDriver -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" started-at="2025-08-30T16:10:20 IST" name="setup" finished-at="2025-08-30T16:10:20 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" started-at="2025-08-30T20:55:11 IST" name="setup" finished-at="2025-08-30T20:55:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="informationSitemapShown()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" started-at="2025-08-30T16:10:20 IST" name="informationSitemapShown" finished-at="2025-08-30T16:10:20 IST" duration-ms="33" status="PASS">
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" started-at="2025-08-30T20:55:11 IST" name="removeDriver" finished-at="2025-08-30T20:55:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" started-at="2025-08-30T20:55:11 IST" name="setup" finished-at="2025-08-30T20:55:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="informationSitemapShown()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" started-at="2025-08-30T20:55:11 IST" name="informationSitemapShown" finished-at="2025-08-30T20:55:12 IST" duration-ms="563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- informationSitemapShown -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" started-at="2025-08-30T16:10:21 IST" name="removeDriver" finished-at="2025-08-30T16:10:21 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" started-at="2025-08-30T20:55:12 IST" name="removeDriver" finished-at="2025-08-30T20:55:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeDriver -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" started-at="2025-08-30T16:10:21 IST" name="setup" finished-at="2025-08-30T16:10:21 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" started-at="2025-08-30T20:55:12 IST" name="setup" finished-at="2025-08-30T20:55:12 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="isLogoDisplayed()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" started-at="2025-08-30T16:10:21 IST" name="isLogoDisplayed" finished-at="2025-08-30T16:10:21 IST" duration-ms="61" status="PASS">
+        <test-method signature="isLogoDisplayed()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" started-at="2025-08-30T20:55:12 IST" name="isLogoDisplayed" finished-at="2025-08-30T20:55:12 IST" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isLogoDisplayed -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" started-at="2025-08-30T16:10:21 IST" name="removeDriver" finished-at="2025-08-30T16:10:21 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeDriver -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_HomePageUI@38d8f54a]" started-at="2025-08-30T16:10:21 IST" name="tearDown" finished-at="2025-08-30T16:10:21 IST" duration-ms="373" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" started-at="2025-08-30T20:55:12 IST" name="tearDown" finished-at="2025-08-30T20:55:13 IST" duration-ms="379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC04_HomePageUI@351d00c0]" started-at="2025-08-30T20:55:12 IST" name="removeDriver" finished-at="2025-08-30T20:55:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
       </class> <!-- testCases.TC04_HomePageUI -->
       <class name="testCases.TC05_AddProductToCart">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC05_AddProductToCart@49e53c76]" started-at="2025-08-30T16:10:21 IST" name="setUp" finished-at="2025-08-30T16:10:30 IST" duration-ms="8724" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC05_AddProductToCart@2a3b5b47]" started-at="2025-08-30T20:55:13 IST" name="setUp" finished-at="2025-08-30T20:55:17 IST" duration-ms="4167" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,25 +235,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC05_AddProductToCart@49e53c76]" started-at="2025-08-30T16:10:30 IST" name="setup" finished-at="2025-08-30T16:10:30 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC05_AddProductToCart@2a3b5b47]" started-at="2025-08-30T20:55:17 IST" name="setup" finished-at="2025-08-30T20:55:17 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addProcuctToCart()[pri:0, instance:testCases.TC05_AddProductToCart@49e53c76]" started-at="2025-08-30T16:10:30 IST" name="addProcuctToCart" finished-at="2025-08-30T16:10:46 IST" depends-on-methods="register" duration-ms="16402" status="PASS">
+        <test-method signature="addProcuctToCart()[pri:0, instance:testCases.TC05_AddProductToCart@2a3b5b47]" started-at="2025-08-30T20:55:17 IST" name="addProcuctToCart" finished-at="2025-08-30T20:55:27 IST" depends-on-methods="register" duration-ms="10722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProcuctToCart -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC05_AddProductToCart@49e53c76]" started-at="2025-08-30T16:10:47 IST" name="removeDriver" finished-at="2025-08-30T16:10:47 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC05_AddProductToCart@2a3b5b47]" started-at="2025-08-30T20:55:28 IST" name="removeDriver" finished-at="2025-08-30T20:55:28 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeDriver -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC05_AddProductToCart@49e53c76]" started-at="2025-08-30T16:10:47 IST" name="tearDown" finished-at="2025-08-30T16:10:47 IST" duration-ms="350" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC05_AddProductToCart@2a3b5b47]" started-at="2025-08-30T20:55:28 IST" name="tearDown" finished-at="2025-08-30T20:55:28 IST" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC05_AddProductToCart -->
       <class name="testCases.TC03_AccountLoginMultipleLoginData">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@409bf450]" started-at="2025-08-30T16:07:30 IST" name="setUp" finished-at="2025-08-30T16:07:39 IST" duration-ms="9714" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@49e53c76]" started-at="2025-08-30T20:54:50 IST" name="setUp" finished-at="2025-08-30T20:54:55 IST" duration-ms="4642" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -201,11 +269,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@409bf450]" started-at="2025-08-30T16:07:39 IST" name="setup" finished-at="2025-08-30T16:07:39 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@49e53c76]" started-at="2025-08-30T20:54:55 IST" name="setup" finished-at="2025-08-30T20:54:55 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@409bf450]" started-at="2025-08-30T16:07:39 IST" name="Login" data-provider="LoginData" finished-at="2025-08-30T16:07:42 IST" depends-on-methods="register" duration-ms="3210" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@49e53c76]" started-at="2025-08-30T20:54:55 IST" name="Login" data-provider="LoginData" finished-at="2025-08-30T20:54:58 IST" depends-on-methods="register" duration-ms="2838" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -226,15 +294,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@409bf450]" started-at="2025-08-30T16:07:43 IST" name="removeDriver" finished-at="2025-08-30T16:07:43 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@49e53c76]" started-at="2025-08-30T20:54:58 IST" name="removeDriver" finished-at="2025-08-30T20:54:58 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeDriver -->
-        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@409bf450]" started-at="2025-08-30T16:07:43 IST" name="Login" data-provider="LoginData" finished-at="2025-08-30T16:07:52 IST" depends-on-methods="register" duration-ms="9621" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@49e53c76]" started-at="2025-08-30T20:54:58 IST" name="Login" data-provider="LoginData" finished-at="2025-08-30T20:55:02 IST" depends-on-methods="register" duration-ms="4364" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[rfSUxbg@gma.coo]]>
+                <![CDATA[EpXWHIz@gma.coo]]>
               </value>
             </param>
             <param index="1">
@@ -251,15 +319,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@409bf450]" started-at="2025-08-30T16:07:43 IST" name="setup" finished-at="2025-08-30T16:07:43 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@49e53c76]" started-at="2025-08-30T20:54:58 IST" name="setup" finished-at="2025-08-30T20:54:58 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@409bf450]" started-at="2025-08-30T16:07:52 IST" name="removeDriver" finished-at="2025-08-30T16:07:52 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@49e53c76]" started-at="2025-08-30T20:55:03 IST" name="removeDriver" finished-at="2025-08-30T20:55:03 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeDriver -->
-        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@409bf450]" started-at="2025-08-30T16:07:52 IST" name="Login" data-provider="LoginData" finished-at="2025-08-30T16:07:58 IST" depends-on-methods="register" duration-ms="5814" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@49e53c76]" started-at="2025-08-30T20:55:03 IST" name="Login" data-provider="LoginData" finished-at="2025-08-30T20:55:04 IST" depends-on-methods="register" duration-ms="1733" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -280,21 +348,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@409bf450]" started-at="2025-08-30T16:07:52 IST" name="setup" finished-at="2025-08-30T16:07:52 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@49e53c76]" started-at="2025-08-30T20:55:03 IST" name="setup" finished-at="2025-08-30T20:55:03 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@409bf450]" started-at="2025-08-30T16:07:58 IST" name="removeDriver" finished-at="2025-08-30T16:07:58 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@49e53c76]" started-at="2025-08-30T20:55:05 IST" name="removeDriver" finished-at="2025-08-30T20:55:05 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeDriver -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@409bf450]" started-at="2025-08-30T16:07:58 IST" name="tearDown" finished-at="2025-08-30T16:07:59 IST" duration-ms="677" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC03_AccountLoginMultipleLoginData@49e53c76]" started-at="2025-08-30T20:55:05 IST" name="tearDown" finished-at="2025-08-30T20:55:05 IST" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC03_AccountLoginMultipleLoginData -->
       <class name="testCases.TC01_AccountRegister">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_AccountRegister@130d63be]" started-at="2025-08-30T16:05:46 IST" name="setUp" finished-at="2025-08-30T16:06:43 IST" duration-ms="57115" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_AccountRegister@293a5bf6]" started-at="2025-08-30T20:54:19 IST" name="setUp" finished-at="2025-08-30T20:54:31 IST" duration-ms="12459" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -310,19 +378,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC01_AccountRegister@130d63be]" started-at="2025-08-30T16:06:43 IST" name="setup" finished-at="2025-08-30T16:06:43 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC01_AccountRegister@293a5bf6]" started-at="2025-08-30T20:54:31 IST" name="setup" finished-at="2025-08-30T20:54:31 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="register()[pri:0, instance:testCases.TC01_AccountRegister@130d63be]" started-at="2025-08-30T16:06:43 IST" name="register" finished-at="2025-08-30T16:06:57 IST" duration-ms="13401" status="PASS">
+        <test-method signature="register()[pri:0, instance:testCases.TC01_AccountRegister@293a5bf6]" started-at="2025-08-30T20:54:31 IST" name="register" finished-at="2025-08-30T20:54:38 IST" duration-ms="7149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC01_AccountRegister@130d63be]" started-at="2025-08-30T16:06:57 IST" name="removeDriver" finished-at="2025-08-30T16:06:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:testCases.TC01_AccountRegister@293a5bf6]" started-at="2025-08-30T20:54:39 IST" name="removeDriver" finished-at="2025-08-30T20:54:39 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeDriver -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_AccountRegister@130d63be]" started-at="2025-08-30T16:06:57 IST" name="tearDown" finished-at="2025-08-30T16:06:58 IST" duration-ms="517" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_AccountRegister@293a5bf6]" started-at="2025-08-30T20:54:39 IST" name="tearDown" finished-at="2025-08-30T20:54:40 IST" duration-ms="875" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

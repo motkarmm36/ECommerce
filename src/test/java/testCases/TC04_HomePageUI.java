@@ -6,40 +6,61 @@ import org.testng.annotations.Test;
 import pageObject.HomePage;
 
 public class TC04_HomePageUI extends BaseClass {
-	HomePage hp ;
-	
-	@Test(groups = {"Master","UI"})
+	HomePage hp;
+
+	@Test(groups = { "Master", "UI" })
 	void HeaderShown() {
-		 hp = new HomePage(driver);
-		logger.info("Header Shown started");
-		Assert.assertTrue(hp.isHeaderDisplayed());
-		logger.info("Header passed");
+		try {
 
+			hp = new HomePage(driver);
+			logger.info("Header Shown started");
+			Assert.assertTrue(hp.isHeaderDisplayed());
+			logger.info("Header passed");
+		} catch (Exception e) {
+			logger.error("Exception occured");
+			logger.debug("Debug logs..");
+			Assert.fail();
+			;
+		}
 	}
-	
-	
-	
-	@Test(groups = {"Master","UI"})
+
+	@Test(groups = { "Master", "UI" })
 	void informationSitemapShown() {
-		logger.info("SitemapShown started");
+		try {
 
-		
-		Assert.assertEquals(true, hp.isinformationSitemapDisplayed());
-		
-		logger.info("SitemapShown finished");
+			logger.info("SitemapShown started");
+
+			Assert.assertEquals(true, hp.isinformationSitemapDisplayed());
+
+			logger.info("SitemapShown finished");
+		} catch (Exception e) {
+			logger.error("Exception occured");
+			logger.debug("Debug logs..");
+			Assert.fail();
+			logger.error("Exception occured");
+			logger.debug("Debug logs..");
+			Assert.fail();
+		}
 
 	}
-	
-	
-	@Test(groups = {"Master","UI"})
+
+	@Test(groups = { "Master", "UI" })
 	void isLogoDisplayed() {
-		logger.info("LogoDisplayed started");
+		try {
 
-		Assert.assertEquals(hp.isLogoDisplayed(), true); 
-		logger.info("LogoDisplayed finished");
+			logger.info("LogoDisplayed started");
+
+			Assert.assertEquals(hp.isLogoDisplayed(), true);
+			logger.info("LogoDisplayed finished");
+		} catch (Exception e) {
+			logger.error("Exception occured");
+			logger.debug("Debug logs..");
+			Assert.fail();
+			logger.error("Exception occured");
+			logger.debug("Debug logs..");
+			Assert.fail();
+		}
 
 	}
-	
-	
 
 }

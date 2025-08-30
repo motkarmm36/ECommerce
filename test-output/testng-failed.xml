@@ -8,15 +8,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCases.TC01_AccountRegister">
+      <class name="testCases.TC08_ForgotPassword">
         <methods>
-          <include name="register"/>
           <include name="setUp"/>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="removeDriver"/>
+          <include name="forgotPasswordwithRegisterEmail"/>
         </methods>
-      </class> <!-- testCases.TC01_AccountRegister -->
+      </class> <!-- testCases.TC08_ForgotPassword -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

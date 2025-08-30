@@ -35,6 +35,15 @@
           <include name="removeDriver"/>
         </methods>
       </class> <!-- testCases.TC05_AddProductToCart -->
+      <class name="testCases.TC07_ChangePassword">
+        <methods>
+          <include name="changePassword"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="removeDriver"/>
+        </methods>
+      </class> <!-- testCases.TC07_ChangePassword -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

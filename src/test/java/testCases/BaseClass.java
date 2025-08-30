@@ -21,82 +21,70 @@ import org.testng.annotations.Parameters;
 import Utilities.ExtentTestListener;
 
 public class BaseClass {
-	
-	
-	public WebDriver driver ;
-	
+
+	public WebDriver driver;
+
 	public Logger logger;
 	public Properties p; // property class variable
 	ChromeOptions options;
-	
-	
-	@Parameters({"OS","browser"})
-	@BeforeClass(groups = {"Functional","Master","UI"})
-	public void setUp(String OS , String browser) throws IOException {
-		FileReader file = new FileReader(".//src/test/resources/config.Properties");
-				p = new Properties();
-				p.load(file);
 
-		
-		
-		if(browser.equals("Chrome")) {
-			
+	@Parameters({ "OS", "browser" })
+	@BeforeClass(groups = { "Functional", "Master", "UI" })
+	public void setUp(String OS, String browser) throws IOException {
+		FileReader file = new FileReader(".//src/test/resources/config.Properties");
+		p = new Properties();
+		p.load(file);
+
+		if (browser.equals("Chrome")) {
+
 			options = new ChromeOptions();
 			options.addArguments("--headless=new");
-			options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+			options.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
 			options.setExperimentalOption("useAutomationExtension", false);
 			options.addArguments("--disable-blink-features=AutomationControlled");
 
-			 driver = new ChromeDriver();
-			
+			driver = new ChromeDriver();
+
 		}
-		if(browser.equals("Edge")) {
+		if (browser.equals("Edge")) {
 			driver = new EdgeDriver();
 		}
-	    ExtentTestListener.setDriver(driver);
+		ExtentTestListener.setDriver(driver);
 
 		driver.manage().deleteAllCookies();
 		driver.get(p.getProperty("url"));
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
+
 		logger = LogManager.getLogger(this.getClass());
 
 	}
-	
-	@AfterClass (groups = {"Functional","Master","UI"})
+
+	@AfterClass(groups = { "Functional", "Master", "UI" })
 	public void tearDown() {
 
 		driver.quit();
-        ExtentTestListener.removeDriver();  // clean up thread-local
-
+		ExtentTestListener.removeDriver(); // clean up thread-local
 
 	}
-	
 
-	    @BeforeMethod
-	    public void setup() {
-	        ExtentTestListener.setDriver(driver);  
-	    }
+	@BeforeMethod
+	public void setup() {
+		ExtentTestListener.setDriver(driver);
+	}
 
-	   
+	@AfterMethod
+	public void removeDriver() {
+		if (driver != null) {
+			ExtentTestListener.removeDriver();
+		}
+	}
 
-	    @AfterMethod
-	    public void removeDriver() {
-	        if (driver != null) {
-	            ExtentTestListener.removeDriver(); 
-	        }
-	    }
-	
-
-	
 	@SuppressWarnings("deprecation")
 	public static String Randomusername() {
-		
-		return RandomStringUtils.randomAlphabetic(7);
-		 
-		
-	}
 
+		return RandomStringUtils.randomAlphabetic(7);
+
+	}
 
 }

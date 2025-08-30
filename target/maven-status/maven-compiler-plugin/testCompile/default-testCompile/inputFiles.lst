@@ -1,5 +1,7 @@
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\pageObject\AccountPage.java
 C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\pageObject\BasePage.java
 C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\pageObject\CartPage.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\pageObject\ForgotPasswordPage.java
 C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\pageObject\HomePage.java
 C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\pageObject\LoginPage.java
 C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\pageObject\ProductDetailsPage.java
@@ -11,6 +13,8 @@ C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test
 C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\testCases\TC04_HomePageUI.java
 C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\testCases\TC05_AddProductToCart.java
 C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\testCases\TC06_RemoveFromCart.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\testCases\TC07_ChangePassword.java
+C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\testCases\TC08_ForgotPassword.java
 C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\Utilities\DataProviders.java
 C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\Utilities\ExcelUtilities.java
 C:\Users\motka\Desktop\My Automation Projects\MaheshAutomationFramework\src\test\java\Utilities\ExtentTestListener.java

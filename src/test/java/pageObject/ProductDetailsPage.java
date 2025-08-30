@@ -9,29 +9,33 @@ public class ProductDetailsPage extends BasePage {
 	public ProductDetailsPage(WebDriver driver) {
 		super(driver);
 	}
-	
 
-	@FindBy(xpath="//input[@id='product_enteredQuantity_4']") 
+	@FindBy(xpath = "//input[@id='product_enteredQuantity_4']")
 	WebElement enterAQuantity;
-	
-	@FindBy(xpath="//button[@id='add-to-cart-button-4']") 
+
+	@FindBy(xpath = "//button[@id='add-to-cart-button-4']")
 	WebElement addToCart;
-	
-	@FindBy(xpath="//p[@class='content']")
+
+	@FindBy(xpath = "//p[@class='content']")
 	WebElement theProductHasBeenAddedTo;
-	
-	@FindBy(xpath="//span[@title='Close']") 
+
+	@FindBy(xpath = "//span[@title='Close']")
 	WebElement close;
-	
+
 	public void addToCart(String quantity) {
-		enterAQuantity.clear();
-		enterAQuantity.sendKeys(quantity);
-		addToCart.click();
+		try {
+			enterAQuantity.clear();
+			enterAQuantity.sendKeys(quantity);
+			addToCart.click();
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
 	}
-	
+
 	public boolean isAddedMessageDisplayed() {
 		return theProductHasBeenAddedTo.isDisplayed();
 	}
+
 	public void closeAddedMessage() {
 		close.click();
 	}

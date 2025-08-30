@@ -1,59 +1,60 @@
-15:09:31.679 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with valid data
-15:09:31.974 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
-15:09:34.709 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with invalid data
-15:09:40.955 [main] INFO  testCases.TC04_HomePageUI - Header Shown started
-15:09:41.072 [main] INFO  testCases.TC04_HomePageUI - Header passed
-15:09:41.299 [main] INFO  testCases.TC04_HomePageUI - SitemapShown started
-15:09:41.351 [main] INFO  testCases.TC04_HomePageUI - SitemapShown finished
-15:09:41.550 [main] INFO  testCases.TC04_HomePageUI - LogoDisplayed started
-15:09:41.586 [main] INFO  testCases.TC04_HomePageUI - LogoDisplayed finished
-15:31:54.355 [main] INFO  testCases.TC01_AccountRegister - Test cases started
-15:31:54.722 [main] INFO  testCases.TC01_AccountRegister -  Entered First and Last Name
-15:31:57.204 [main] INFO  testCases.TC01_AccountRegister - Assertion sucess message assertion starts
-15:31:57.264 [main] INFO  testCases.TC01_AccountRegister - assertion done...
-15:34:52.672 [main] INFO  testCases.TC01_AccountRegister - Test cases started
-15:34:53.020 [main] INFO  testCases.TC01_AccountRegister -  Entered First and Last Name
-15:34:55.318 [main] INFO  testCases.TC01_AccountRegister - Assertion sucess message assertion starts
-15:34:55.482 [main] INFO  testCases.TC01_AccountRegister - assertion done...
-15:36:50.767 [main] INFO  testCases.TC01_AccountRegister - Test cases started
-15:36:51.096 [main] INFO  testCases.TC01_AccountRegister -  Entered First and Last Name
-15:37:09.737 [main] INFO  testCases.TC01_AccountRegister - Assertion sucess message assertion starts
-15:37:09.807 [main] INFO  testCases.TC01_AccountRegister - assertion done...
-15:37:20.502 [main] INFO  testCases.TC02_AccountLogin - LoginTest started
-15:37:32.478 [main] INFO  testCases.TC02_AccountLogin - LoginTest passed
-15:37:55.693 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
-15:38:01.569 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with invalid data
-15:38:01.707 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
-15:38:08.348 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with valid data
-15:38:08.588 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
-15:38:11.375 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with invalid data
-15:38:41.586 [main] INFO  testCases.TC04_HomePageUI - Header Shown started
-15:38:41.678 [main] INFO  testCases.TC04_HomePageUI - Header passed
-15:38:41.909 [main] INFO  testCases.TC04_HomePageUI - SitemapShown started
-15:38:41.941 [main] INFO  testCases.TC04_HomePageUI - SitemapShown finished
-15:38:42.172 [main] INFO  testCases.TC04_HomePageUI - LogoDisplayed started
-15:38:42.225 [main] INFO  testCases.TC04_HomePageUI - LogoDisplayed finished
-15:44:36.596 [main] INFO  testCases.TC01_AccountRegister - Test cases started
-15:44:36.956 [main] INFO  testCases.TC01_AccountRegister -  Entered First and Last Name
-15:44:39.959 [main] INFO  testCases.TC01_AccountRegister - Assertion sucess message assertion starts
-15:44:40.021 [main] INFO  testCases.TC01_AccountRegister - assertion done...
-15:45:09.749 [main] INFO  testCases.TC02_AccountLogin - LoginTest started
-15:45:55.558 [main] INFO  testCases.TC02_AccountLogin - LoginTest passed
-15:46:07.673 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
-15:46:14.301 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with invalid data
-15:46:14.462 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
-15:46:22.211 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with valid data
-15:46:22.495 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
-15:46:26.632 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with invalid data
-15:48:38.844 [main] INFO  testCases.TC04_HomePageUI - Header Shown started
-15:48:38.900 [main] INFO  testCases.TC04_HomePageUI - Header passed
-15:48:39.170 [main] INFO  testCases.TC04_HomePageUI - SitemapShown started
-15:48:39.208 [main] INFO  testCases.TC04_HomePageUI - SitemapShown finished
-15:48:39.469 [main] INFO  testCases.TC04_HomePageUI - LogoDisplayed started
-15:48:39.507 [main] INFO  testCases.TC04_HomePageUI - LogoDisplayed finished
-16:06:51.194 [main] INFO  testCases.TC01_AccountRegister - Test cases started
-16:06:51.544 [main] INFO  testCases.TC01_AccountRegister -  Entered First and Last Name
-16:06:55.027 [main] INFO  testCases.TC01_AccountRegister - Assertion sucess message assertion starts
-16:06:55.089 [main] INFO  testCases.TC01_AccountRegister - assertion done...
-16:07:04.006 [main] INFO  testCases.TC02_AccountLogin - LoginTest started
-16:07:29.293 [main] INFO  testCases.TC02_AccountLogin - LoginTest passed
+20:06:11.369 [main] DEBUG testCases.TC05_AddProductToCart - Debug logs..
+20:07:50.533 [main] INFO  testCases.TC01_AccountRegister - Test cases started
+20:07:51.014 [main] INFO  testCases.TC01_AccountRegister -  Entered First and Last Name
+20:07:51.945 [main] INFO  testCases.TC01_AccountRegister - Assertion sucess message assertion starts
+20:07:55.201 [main] INFO  testCases.TC01_AccountRegister - assertion done...
+20:08:06.191 [main] INFO  testCases.TC02_AccountLogin - LoginTest started
+20:08:11.653 [main] INFO  testCases.TC02_AccountLogin - LoginTest passed
+20:08:39.642 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
+20:12:38.280 [main] INFO  testCases.TC01_AccountRegister - Test cases started
+20:12:38.611 [main] INFO  testCases.TC01_AccountRegister -  Entered First and Last Name
+20:12:41.729 [main] INFO  testCases.TC01_AccountRegister - Assertion sucess message assertion starts
+20:12:41.786 [main] INFO  testCases.TC01_AccountRegister - assertion done...
+20:12:48.869 [main] INFO  testCases.TC02_AccountLogin - LoginTest started
+20:13:09.354 [main] INFO  testCases.TC02_AccountLogin - LoginTest passed
+20:13:41.924 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
+20:14:30.971 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with invalid data
+20:14:31.127 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
+20:14:36.090 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with valid data
+20:14:36.341 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
+20:14:39.171 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with invalid data
+20:14:55.916 [main] INFO  testCases.TC04_HomePageUI - Header Shown started
+20:14:56.009 [main] INFO  testCases.TC04_HomePageUI - Header passed
+20:14:56.551 [main] INFO  testCases.TC04_HomePageUI - SitemapShown started
+20:14:56.684 [main] INFO  testCases.TC04_HomePageUI - SitemapShown finished
+20:14:56.936 [main] INFO  testCases.TC04_HomePageUI - LogoDisplayed started
+20:14:56.988 [main] INFO  testCases.TC04_HomePageUI - LogoDisplayed finished
+20:16:03.372 [main] ERROR testCases.TC06_RemoveFromCart - Exception occured
+20:16:03.374 [main] DEBUG testCases.TC06_RemoveFromCart - Debug logs..
+20:18:08.847 [main] ERROR testCases.TC07_ChangePassword - Exception occured
+20:18:08.847 [main] DEBUG testCases.TC07_ChangePassword - Debug logs..
+20:22:59.004 [main] INFO  testCases.TC01_AccountRegister - Test cases started
+20:22:59.362 [main] INFO  testCases.TC01_AccountRegister -  Entered First and Last Name
+20:23:06.218 [main] INFO  testCases.TC01_AccountRegister - Assertion sucess message assertion starts
+20:23:06.359 [main] INFO  testCases.TC01_AccountRegister - assertion done...
+20:24:05.287 [main] INFO  testCases.TC02_AccountLogin - LoginTest started
+20:26:32.635 [main] ERROR testCases.TC02_AccountLogin - Exception occured
+20:26:32.636 [main] DEBUG testCases.TC02_AccountLogin - Debug logs..
+20:27:36.758 [main] INFO  testCases.TC01_AccountRegister - Test cases started
+20:27:37.115 [main] INFO  testCases.TC01_AccountRegister -  Entered First and Last Name
+20:27:38.046 [main] INFO  testCases.TC01_AccountRegister - Assertion sucess message assertion starts
+20:27:39.799 [main] INFO  testCases.TC01_AccountRegister - assertion done...
+20:48:41.922 [main] INFO  testCases.TC02_AccountLogin - LoginTest started
+20:49:44.601 [main] ERROR testCases.TC02_AccountLogin - Exception occured
+20:49:44.603 [main] DEBUG testCases.TC02_AccountLogin - Debug logs..
+20:52:19.646 [main] INFO  testCases.TC01_AccountRegister - Test cases started
+20:52:20.139 [main] INFO  testCases.TC01_AccountRegister -  Entered First and Last Name
+20:52:22.110 [main] INFO  testCases.TC01_AccountRegister - Assertion sucess message assertion starts
+20:52:22.178 [main] INFO  testCases.TC01_AccountRegister - assertion done...
+20:52:29.965 [main] INFO  testCases.TC02_AccountLogin - LoginTest started
+20:52:35.826 [main] INFO  testCases.TC02_AccountLogin - LoginTest passed
+20:52:41.766 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
+20:52:44.566 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with invalid data
+20:52:44.931 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
+20:52:48.657 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with valid data
+20:52:49.040 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest Started
+20:52:51.142 [main] INFO  testCases.TC03_AccountLoginMultipleLoginData - LoginTest passed with invalid data
+20:52:57.388 [main] INFO  testCases.TC04_HomePageUI - Header Shown started
+20:52:57.450 [main] INFO  testCases.TC04_HomePageUI - Header passed
+20:52:58.105 [main] INFO  testCases.TC04_HomePageUI - SitemapShown started
+20:52:58.159 [main] INFO  testCases.TC04_HomePageUI - SitemapShown finished
