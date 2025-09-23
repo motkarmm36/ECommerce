@@ -1,5 +1,6 @@
 # 🛒 ECommerce Automation Framework
 
+
 This project is an **Automation Testing Framework** for the **ECommerce web application**, built using **Java, Selenium, TestNG, Maven, and Extent Reports**.  
 It automates critical workflows like login, product search, add to cart to ensure high-quality software delivery.
 
